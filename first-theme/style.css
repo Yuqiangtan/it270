@@ -1,0 +1,137 @@
+/*Styles for our First Theme WordPress website
+Theme name : First Theme
+Author : Yuqiang Tan
+Author URL: http://liaou.club
+Description: Our First WordPress Theme
+*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: beige;
+}
+
+.home .size-post-thumbnail{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color:brown;
+}
+
+header{
+    height:100px;
+    background: yellow;
+}
+
+#wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main{
+    float: left;
+    width: 63%;
+    margin-top: 20px;
+}
+
+aside{
+    float: right;
+    width: 34%;
+    height: 200px;
+    background: lightgreen;
+    margin-top: 20px;
+}
+
+footer{
+    clear: both;
+    height: 200px;
+    background: #ccc;
+}
+
+.copyright{
+    clear:both;
+    height: 50px;
+    line-height: 50px;
+    background: lightcyan;
+}
+
+.copyright ul{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.copyright li{
+    float:left;
+    margin-right: 30px;
+}
+
+.thumbnail{
+    margin-bottom: 10px;
+}
+
+.email-notes{
+    font-style:italic;
+}
+
+/* reply form */
+#comment{
+    display: block;
+}
+
+.comment-notes + .comment-form-comment{
+    margin:-14px 0 20px 0;
+}
+
+#respond{
+    border: 1px solid brown;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+
+.block{
+    display: block;
+}
+
+p + .block{
+    margin: -10px 0 20px 0;
+}
+
+article span{
+    font-style: italic;
+}
+
+h1{
+    font-size: 2.44em;
+    color: tan;
+    margin-bottom: 10px;
+}
+
+h1 a{
+    color: brown;
+}
+
+h2{
+    font-size: 1.88em;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.5em;
+    color:brown;
+    margin-bottom: 8px;
+}
+
+.meta{
+    margin-bottom: 10px;
+}
