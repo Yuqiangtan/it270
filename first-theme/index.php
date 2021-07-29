@@ -1,8 +1,11 @@
 <?php
 get_header();
 ?>
+<div id="hero">
+ <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/yellowstone-inner.jpg" alt="banner">
+</div>
 
-<div id="wrapper">
+<div class="wrapper">
 <main>
 <!-- if we have posts show me the post
 if not we do not have posts -->
@@ -43,7 +46,7 @@ if not we do not have posts -->
     
 </main>
 <aside>
-    This is the index page!!!
+    <?php get_sidebar(); ?>
 </aside>
 </div>
     <!-- end wrapper -->
