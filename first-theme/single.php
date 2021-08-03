@@ -36,9 +36,9 @@ if not we do not have posts -->
 
     
 </main>
-<aside>
-    
-</aside>
+
+<?php get_sidebar(); ?>    
+
 </div>
     <!-- end wrapper -->
 <?php
